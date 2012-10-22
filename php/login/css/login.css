@@ -1,0 +1,34 @@
+/* reset */
+html{border:0;margin:0;padding:0}body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,dialog,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1.5;background:#FFF}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:400;float:none!important}table,th,td{vertical-align:middle}blockquote:before,blockquote:after,q:before,q:after{content:''}a img{border:none}:focus{outline:0}dl,ul,ol{list-style:none}
+
+html {
+	background-color: #888;
+	font: 16px/1.1 "Verdana","Arial",sans-serif;
+}
+
+body {
+	background-color: white;
+	border: solid black 1px;
+	height: 210px;
+	margin-left: -160px;
+	margin-top: -115px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+}
+
+h1 { font-size: 150%; font-weight: bold;}
+
+form {
+	margin: 10px 0;
+}
+input[type=text],input[type=password] {
+	font-family: monospace;
+	font-size: 18px;
+	width: 280px;
+}
+
+div.section.error { color: red; }
