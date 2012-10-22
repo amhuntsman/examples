@@ -102,7 +102,7 @@ class User {
     $user = self::fetch_by_username($username);
     if (!$user) return false;
     $e_pass = $user->encrypted_password;
-    return $e_pass == crypt($password, $e_pass) ? $user : false;
+    return \Example\Crypto::is_match($password, $e_pass) ? $user : false;
   }
   
   private static function connect_db() {
